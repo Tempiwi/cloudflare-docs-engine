@@ -7,7 +7,7 @@ const DocsSidebarHeaderSection = () => (
   <div className="DocsSidebar--section DocsSidebar--header-section">
     <a className="DocsSidebar--cloudflare-logo-link DocsSidebar--link" href="https://medvideos.su">
       <DocsNavLogoLockup
-        logo={<CloudflareLogo/>}
+        logo={<Img src='https://raw.githubusercontent.com/Tempiwi/medvideos/main/images/logo.png'/>}
         text={(
           <>
             <span data-text="MedVideos">MedVideos</span>
